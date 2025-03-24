@@ -49,7 +49,7 @@ This will download all the third-party package definitions.  They'll be needed b
 Copy, or symlink, the Kismet package definitions.  From the `openwrt` directory you should already be in:
 
 ```bash
-$ cp -R ../kismet-packages/openwrt/kismet-openwrt packages/
+$ cp -R ../kismet-packages/openwrt/kismet-openwrt package/
 ```
 
 This assumes you checked out the kismet-packages repository in the same directory that  you checked out OpenWRT; if you used a different directory, of course copy from there instead.
